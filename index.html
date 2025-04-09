@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altair 8800 Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="altair-panel">
+        <div class="section status-lights">
+            <div class="light-group">
+                <div class="light-wrapper"><div class="light" id="light-inte"></div><span>INTE</span></div>
+                <div class="light-wrapper"><div class="light" id="light-prot"></div><span>PROT</span></div>
+                <div class="light-wrapper"><div class="light" id="light-memr"></div><span>MEMR</span></div>
+                <div class="light-wrapper"><div class="light" id="light-inp"></div><span>INP</span></div>
+                <div class="light-wrapper"><div class="light" id="light-mi"></div><span>MI</span></div>
+                <div class="light-wrapper"><div class="light" id="light-out"></div><span>OUT</span></div>
+                <div class="light-wrapper"><div class="light" id="light-hlta"></div><span>HLTA</span></div>
+                <div class="light-wrapper"><div class="light" id="light-stack"></div><span>STACK</span></div>
+                <div class="light-wrapper"><div class="light" id="light-wo"></div><span>WO</span></div>
+                <div class="light-wrapper"><div class="light" id="light-int"></div><span>INT</span></div>
+            </div>
+            <span class="label">STATUS</span>
+        </div>
+        <div class="section data-address-lights">
+            <div class="light-group wait-hlda">
+                <div class="light-wrapper"><div class="light" id="light-wait"></div><span>WAIT</span></div>
+                <div class="light-wrapper"><div class="light" id="light-hlda"></div><span>HLDA</span></div>
+            </div>
+            <div class="light-row address-lights">
+                 <div class="light-wrapper"><div class="light" id="light-a15"></div><span>A15</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a14"></div><span>A14</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a13"></div><span>A13</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a12"></div><span>A12</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a11"></div><span>A11</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a10"></div><span>A10</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a9"></div><span>A9</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a8"></div><span>A8</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a7"></div><span>A7</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a6"></div><span>A6</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a5"></div><span>A5</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a4"></div><span>A4</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a3"></div><span>A3</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a2"></div><span>A2</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a1"></div><span>A1</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-a0"></div><span>A0</span></div>
+            </div>
+             <div class="light-row data-lights">
+                 <span class="spacer-group"></span>
+                 <div class="light-wrapper"><div class="light" id="light-d7"></div><span>D7</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-d6"></div><span>D6</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-d5"></div><span>D5</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-d4"></div><span>D4</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-d3"></div><span>D3</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-d2"></div><span>D2</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-d1"></div><span>D1</span></div>
+                 <div class="light-wrapper"><div class="light" id="light-d0"></div><span>D0</span></div>
+            </div>
+        </div>
+
+        <div class="section switches">
+             <div class="switch-row sense-switches">
+                <span class="row-label">SENSE SW</span>
+                <div class="switch-wrapper"><div class="switch" id="sw15" data-switch-index="15"></div><span class="switch-num">15</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw14" data-switch-index="14"></div><span class="switch-num">14</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw13" data-switch-index="13"></div><span class="switch-num">13</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw12" data-switch-index="12"></div><span class="switch-num">12</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw11" data-switch-index="11"></div><span class="switch-num">11</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw10" data-switch-index="10"></div><span class="switch-num">10</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw9" data-switch-index="9"></div><span class="switch-num">9</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw8" data-switch-index="8"></div><span class="switch-num">8</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw7" data-switch-index="7"></div><span class="switch-num">7</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw6" data-switch-index="6"></div><span class="switch-num">6</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw5" data-switch-index="5"></div><span class="switch-num">5</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw4" data-switch-index="4"></div><span class="switch-num">4</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw3" data-switch-index="3"></div><span class="switch-num">3</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw2" data-switch-index="2"></div><span class="switch-num">2</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw1" data-switch-index="1"></div><span class="switch-num">1</span></div>
+                <div class="switch-wrapper"><div class="switch" id="sw0" data-switch-index="0"></div><span class="switch-num">0</span></div>
+                 <span class="row-label end-label data-label">Data</span>
+                 <span class="row-label end-label address-label">Address</span>
+            </div>
+             <div class="switch-row command-switches">
+                 <div class="switch-group power-group">
+                    <div class="switch power-switch" id="sw-power"></div>
+                    <span>OFF / ON</span>
+                 </div>
+                 <div class="switch-group command-group">
+                    <div class="switch momentary" id="sw-stop-run"></div>
+                    <span>STOP / RUN</span>
+                 </div>
+                  <div class="switch-group command-group">
+                    <div class="switch momentary" id="sw-single-step"></div>
+                    <span>SINGLE<br>STEP</span>
+                 </div>
+                  <div class="switch-group command-group">
+                    <div class="switch momentary" id="sw-examine"></div>
+                    <span>EXAMINE</span><br><span class="sub-label">EXAMINE NEXT</span>
+                 </div>
+                 <div class="switch-group command-group">
+                    <div class="switch momentary" id="sw-deposit"></div>
+                    <span>DEPOSIT</span><br><span class="sub-label">DEPOSIT NEXT</span>
+                 </div>
+                  <div class="switch-group command-group">
+                    <div class="switch momentary" id="sw-reset-clr"></div>
+                    <span>RESET / CLR</span>
+                 </div>
+                 <div class="switch-group command-group">
+                    <div class="switch protect-switch" id="sw-protect"></div>
+                    <span>PROTECT</span><br><span class="sub-label">UNPROTECT</span>
+                 </div>
+                  <div class="switch-group command-group aux-group">
+                    <div class="switch aux-switch" id="sw-aux1"></div>
+                    <span>AUX 1</span>
+                 </div>
+                 <div class="switch-group command-group aux-group">
+                    <div class="switch aux-switch" id="sw-aux2"></div>
+                    <span>AUX 2</span>
+                 </div>
+            </div>
+        </div>
+
+        <div class="brand">
+            <span class="logo">ALTAIR 8800 COMPUTER</span>
+        </div>
+
+        <div class="terminal-section">
+            <h2>CALCULATOR MODE</h2>
+            <pre id="terminal-output" class="terminal-output">Power OFF. Turn ON to enable calculator.</pre>
+            <div class="terminal-input-area">
+                 <span class="terminal-prompt">&gt;</span>
+                 <input type="text" id="terminal-input" class="terminal-input" placeholder="Enter math (e.g., 5*3+2 or sqrt(16))" disabled>
+                 <button id="terminal-send" class="terminal-send" disabled>Send</button>
+            </div>
+        </div>
+
+    </div> <script src="script.js"></script>
+</body>
+</html>
